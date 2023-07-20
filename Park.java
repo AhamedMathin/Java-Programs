@@ -1,53 +1,71 @@
 class Park{
-	String senderName;
-	String receiverName;
+	String parkName;
+	double boundary;
 	String type;
-	String reason;
-	boolean meassageSent;
-	boolean secure;
-	String view;
+	int noOfBenchs;
+	String maintenance;
+	boolean parking;
+	boolean equipment;
+	boolean playGround;
+	boolean walkingPath;
 	
 	
-	Mail(String senderName)
+	Park(String parkName)
 	{	
-		System.out.println("invoking String constructor in Mail");
-		this.senderName=senderName;	
+		System.out.println("invoking String constructor in Park");
+		this.parkName=parkName;	
 	}
-	Mail(String senderName,String receiverName)
-	{
-		System.out.println("invoking String,Stirng constructor in Mail");
-		this.senderName=senderName;
-		this.receiverName=receiverName;		
+	Park(String parkName,double boundary)
+	{	
+		System.out.println("invoking String,double constructor in Park");
+		this.parkName=parkName;
+        this.boundary=boundary;		
 	}
-	Mail(String senderName,String receiverName,String type)
-	{
-		this(senderName,receiverName);
+	Park(String parkName,double boundary,String type)
+	{	
+	    this(parkName,boundary);
 		this.type=type;
-		System.out.println("invoking String,Stirng,String constructor in Mail");
+		System.out.println("invoking String,double,String constructor in Park");
+	}
+	Park(String parkName,double boundary,String type,int noOfBenchs)
+	{	
+	    this(parkName,boundary,type);
+		this.noOfBenchs=noOfBenchs;
+		System.out.println("invoking String,double,String,int constructor in Park");
 	}
 	
-	Mail(String senderName,String receiverName,String type,boolean meassageSent)
-	{
-		this(senderName,receiverName,type);
-		this.meassageSent=meassageSent;
-		System.out.println("invoking String,Stirng,String,boolean constructor Mail");	
+	
+	Park(String parkName,double boundary,String type,int noOfBenchs,String maintenance)
+	{	
+	    this(parkName,boundary,type);
+		this.maintenance=maintenance;
+		System.out.println("invoking String,double,String,int,String constructor in Park");
 	}
-    Mail(String senderName,String receiverName,String type,boolean meassageSent,String reason)
-	{
-		this(senderName,receiverName,type,meassageSent);
-		this.reason=reason;
-		System.out.println("invoking String,Stirng,String,boolean,String constructor Mail");	
+	Park(String parkName,double boundary,String type,int noOfBenchs,String maintenance,boolean parking)
+	{	
+	    this(parkName,boundary,type,noOfBenchs,maintenance);
+		this.parking=parking;
+		System.out.println("invoking String,double,String,int,boolean constructor in Park");
 	}
-	Mail(String senderName,String receiverName,String type,boolean meassageSent,String reason,boolean secure)
-	{
-		this(senderName,receiverName,type,meassageSent,reason);
-		this.secure=secure;
-		System.out.println("invoking String,Stirng,String,boolean,String,boolean constructor Mail");	
+	Park(String parkName,double boundary,String type,int noOfBenchs,String maintenance,boolean parking,boolean equipment)
+	{	
+	    this(parkName,boundary,type,noOfBenchs,maintenance,parking);
+		this.equipment=equipment;
+		System.out.println("invoking String,double,String,int,boolean,boolean constructor in Park");
 	}
-	Mail(String senderName,String receiverName,String type,boolean meassageSent,String reason,boolean secure,String view)
-	{
-		this(senderName,receiverName,type,meassageSent,reason,secure);
-		this.view=view;
-		System.out.println("invoking String,Stirng,String,boolean,String,boolean,Stirng constructor Mail");	
+	Park(String parkName,double boundary,String type,int noOfBenchs,String maintenance,boolean parking,boolean equipment,boolean playGround)
+	{	
+	    this(parkName,boundary,type,noOfBenchs,maintenance,parking,equipment);
+		this.playGround=playGround;
+		System.out.println("invoking String,double,String,int,boolean,boolean,boolean constructor in Park");
 	}
+	Park(String parkName,double boundary,String type,int noOfBenchs,String maintenance,boolean parking,boolean equipment,boolean playGround,boolean walkingPath)
+	{	
+	    this(parkName,boundary,type,noOfBenchs,maintenance,parking,equipment,playGround);
+		this.walkingPath=walkingPath;
+		System.out.println("invoking String,double,String,int,boolean,boolean,boolean,boolean constructor in Park");
+	}
+	
+	
+	
 }

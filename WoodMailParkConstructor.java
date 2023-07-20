@@ -17,11 +17,11 @@ class WoodMailParkConstructor{
 	Mail mail2=new Mail("Manager","employee","ProjectMail",true,"Deadline of project",true,"viewed");
 	System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ");
 	
-	Park park=new Park();
+	Park park=new Park("Cubbon Park");
 	System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ");
-	
+	Park park1=new Park("Lumbini Gardens",2);
 	System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ");
-	
+	Park park2=new Park("Lal Bagh Botanical Garden",3.0,"ALL",10,"Clean",true,true,true,true);
 	
 	}
 }
