@@ -7,7 +7,7 @@ class Candle{
 	
 	Candle(String color,double price)
 	{
-		System.out.println("Invoking String price constructor in Candle");
+		System.out.println("Invoking String,double constructor in Candle");
 		this.color=color;
 		this.price=price;
 	}

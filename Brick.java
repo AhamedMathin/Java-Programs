@@ -7,7 +7,7 @@ class Brick{
 	
 	Brick(String color,double price)
 	{
-		System.out.println("Invoking String price constructor in Brick");
+		System.out.println("Invoking String,double constructor in Brick");
 		this.color=color;
 		this.price=price;
 	}

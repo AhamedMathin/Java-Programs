@@ -7,7 +7,7 @@ class Bureau{
 	
 	Bureau(String color,double price)
 	{
-		System.out.println("Invoking String price constructor in Bureau");
+		System.out.println("Invoking String,double constructor in Bureau");
 		this.color=color;
 		this.price=price;
 	}

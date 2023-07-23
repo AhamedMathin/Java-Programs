@@ -7,7 +7,7 @@ class Soil{
 	
 	Soil(String color,double price)
 	{
-		System.out.println("Invoking String price constructor in Soil");
+		System.out.println("Invoking String,double constructor in Soil");
 		this.color=color;
 		this.price=price;
 	}

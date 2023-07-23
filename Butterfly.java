@@ -1,34 +1,34 @@
 class Butterfly{
 	
-	static String brand;
-	static String type;
+	static String personalities;
+	static int noOfLegs;
 	String color;
-	double price;
+	String name;
 	
-	Soil(String color,double price)
+	Butterfly(String color,String name)
 	{
-		System.out.println("Invoking String price constructor in Soil");
+		System.out.println("Invoking String  constructor in Butterfly");
 		this.color=color;
-		this.price=price;
+		this.name=name;
 	}
 	
 	static{
-		brand="Utkarsh Agrochem";
-		type="clay";
+		personalities="gentle and loving souls";
+		noOfLegs=6;
 		
 	}
 	
 	static void printStatic()
 	{
-		System.out.println("Invoking printStatic in Soil");
-		System.out.println("The brand of Soil is "+brand);
-		System.out.println("Type of Soil is "+type);
+		System.out.println("Invoking printStatic in Butterfly");
+		System.out.println("The personalities of Butterfly is "+personalities);
+		System.out.println("legs of Butterfly is "+noOfLegs);
 	}
 	
 	void printInstance()
 	{
-		System.out.println("Invoking printInstance in Soil ");
-		System.out.println("Color of Soil is "+this.color);
-		System.out.println("Price of Soil is "+this.price);
+		System.out.println("Invoking printInstance in Butterfly ");
+		System.out.println("Color of Butterfly is "+this.color);
+		System.out.println("Name of Butterfly is "+this.name);
 	}
 }

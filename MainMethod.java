@@ -39,7 +39,7 @@ class MainMethod{
 		
 		System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 		
-		Butterfly butterfly=new Butterfly("Red",30);
+		Butterfly butterfly=new Butterfly("Orange","Viceroy");
 		butterfly.printStatic();
 		butterfly.printInstance();
 	
