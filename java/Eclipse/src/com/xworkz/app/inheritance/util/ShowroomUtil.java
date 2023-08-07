@@ -6,8 +6,6 @@ import com.xworkz.app.inheritance.WatchShowroom;
 
 public class ShowroomUtil {
 
-	
-	
 	public static  void run(Showroom showroom)
 	{
 
@@ -16,7 +14,7 @@ public class ShowroomUtil {
 	// Avoid class cast exception
 	if(showroom instanceof WatchShowroom)
 	{
-
+      
 	System.out.println("showroom is watchshowroom");
 
 	WatchShowroom watchShowroom =(WatchShowroom) showroom;//casting
@@ -35,5 +33,5 @@ public class ShowroomUtil {
 	System.out.println(mobileShowroom.pincode);
 	mobileShowroom.freeGift();
 	}
-	}
+	}`
 }

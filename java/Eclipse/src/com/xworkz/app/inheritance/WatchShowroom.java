@@ -5,6 +5,8 @@ public class WatchShowroom extends Showroom {
 
 	public void discount() {
 		System.out.println("invoking discount in WatchShowroom");
+		
+		
 	}
 
 }
