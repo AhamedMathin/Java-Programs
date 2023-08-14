@@ -94,12 +94,15 @@ public class OverLoadRide {
 		city.travel();
 		Banglore banglore = new Banglore();
 		banglore.travel();
-
+		
 		System.out.println("############################################");
 		Zoo zoo = new AnimalZoo();
 		zoo.click();
+		zoo.equals(zoo);
 		AnimalZoo animalZoo = new AnimalZoo();
 		animalZoo.click();
+		animalZoo.click(null, null);
+		
 
 		System.out.println("############################################");
 		Street street = new ChunkStreet();
@@ -112,6 +115,8 @@ public class OverLoadRide {
 		pub.drink();
 		Tonique tonique = new Tonique();
 		tonique.drink();
+		System.out.println(tonique.location);
+		tonique.drive();
 
 		System.out.println("############################################");
 		PoliceStation policeStation = new Local();

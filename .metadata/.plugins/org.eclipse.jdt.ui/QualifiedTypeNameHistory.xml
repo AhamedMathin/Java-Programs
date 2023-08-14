@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Bakery"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.SweetBakery"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Panchami"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Hotel"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Hospital"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.GvtHospital"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Hostel"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.OldHostel"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Mall"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Theater"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Orion"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.LuLuMall"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Library"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.PublicLibrary"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Temple"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.NewTemple"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Market"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.KrMarket"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.City"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Banglore"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Zoo"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.AnimalZoo"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Street"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.ChunkStreet"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Pub"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Tonique"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.PoliceStation"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Local"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+</qualifiedTypeNameHistroy>
