@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Bakery"/>
     <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.SweetBakery"/>
     <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Panchami"/>
@@ -30,4 +29,15 @@
     <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.PoliceStation"/>
     <fullyQualifiedTypeName name="com.xworkz.app.method.overload.override.Local"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Metro"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.NammaMetro"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Tree"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Plant"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Animal"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Tiger"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Bulding"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Banglow"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.Life"/>
+    <fullyQualifiedTypeName name="com.xworkz.app.abstractcm.FuturePlan"/>
 </qualifiedTypeNameHistroy>
